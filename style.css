@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  background: radial-gradient(circle, #fff, #ccc);
+}
+
+#container {
+  height: 650px;
+  width: 800px;
+  background-color: #9dd2ea;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0px 0px #009de4;
+  position: relative;
+}
+
+#score {
+  background-color: #f1ff92;
+  color: #888e5f;
+  padding: 12px;
+  position: absolute;
+  left: 700px;
+  top: 15px;
+  box-shadow: 4px 4px 0px #9da853;
+}
+
+#correct {
+  position: absolute;
+  left: 225px;
+  background-color: #42e252;
+  color: white;
+  padding: 12px;
+  display: none;
+}
+
+#wrong {
+  position: absolute;
+  left: 225px;
+  background-color: #de401a;
+  color: white;
+  padding: 12px;
+  display: none;
+}
+
+#fruits-container {
+  width: 650px;
+  height: 400px;
+  position: relative;
+  margin: 50px auto 10px auto;
+  background-color: white;
+  box-shadow: 4px 4px #535aa8;
+  font-size: 100px;
+  text-align: center;
+  font-family: cursive, sans-serif;
+  overflow: hidden;
+}
+
+#instruction {
+  width: 450px;
+  height: 50px;
+  background-color: #b481d9;
+  margin: 0 auto 10px auto;
+  text-align: center;
+  line-height: 45px;
+  box-shadow: 4px 4px #8153a8;
+}
+
+#start-reset {
+  width: 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  margin: 0 auto 5px auto;
+  border-radius: 3px;
+  box-shadow: 4px 4px rgba(0 , 0 , 0, 0.2);
+  cursor: pointer;
+  text-align: center;
+}
+
+#trials-left {
+  width: 80px;
+  padding: 10px;
+  position: absolute;
+  top: 15px;
+  background-color: #f1ff92;
+  box-shadow: 4px 4px 0px #9da853;
+  display: none;
+}
+
+#gameover {
+  height: 200px;
+  width: 500px;
+  background: linear-gradient(#f3ca6b, #f3706c);
+  color: white;
+  font-size: 2.5em;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: 170px;
+  left: 150px;
+  z-index: 1;
+  display: none;
+}
+
+.life {
+  width: 16px;
+  height: 16px;
+  margin: 0 2px;
+}
+
+.fruit {
+  display: none;
+  position: absolute;
+}
+
