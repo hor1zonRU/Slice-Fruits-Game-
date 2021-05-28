@@ -8,8 +8,8 @@ html {
 }
 
 #container {
-  height: 650px;
   width: 800px;
+  height: 600px;
   background-color: #9dd2ea;
   margin: 10px auto;
   padding: 20px;
@@ -66,7 +66,8 @@ html {
   margin: 0 auto 10px auto;
   text-align: center;
   line-height: 45px;
-  box-shadow: 4px 4px #8153a8;
+  font-weight: 700;
+  /* box-shadow: 4px 4px #8153a8; */
 }
 
 #start-reset {
@@ -78,6 +79,10 @@ html {
   box-shadow: 4px 4px rgba(0 , 0 , 0, 0.2);
   cursor: pointer;
   text-align: center;
+}
+
+#start-reset:hover {
+  background-color: rgb(97, 97, 248);
 }
 
 #trials-left {

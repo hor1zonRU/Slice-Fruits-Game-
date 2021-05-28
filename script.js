@@ -53,7 +53,7 @@ $(document).ready(function() {
         chooseFruit();
 
         $('#fruit1').css({'left': Math.round(Math.random() * 550), 'top': -50});
-        step = Math.round(Math.random() * 5) + 1;
+        step = Math.round(Math.random() * 12) + 1;
 
         action = setInterval(function() {
             $('#fruit1').css('top', $('#fruit1').position().top + step)
